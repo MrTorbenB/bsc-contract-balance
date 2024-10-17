@@ -1,11 +1,12 @@
 <?php
-/**
- * Plugin Name: BSC Contract Balances
- * Description: A plugin to display BNB balances of BSC contracts. Add per Shortcode. Shows BNB/EUR
- * Version: 0.1
- * Author: Internetdienstleistungen Torben Bühl
- * Text Domain: bsc-contract-balances
- */
+/*
+Plugin Name: BSC Contract Balances
+Plugin URI: https://torbenb.info/download/
+Description: Ein Plugin, um BNB-Guthaben von BSC-Verträgen anzuzeigen. Fügt per Shortcode hinzu. Zeigt BNB/EUR an.
+Version: 1.0
+Author: TorbenB
+Author URI: https://torbenb.info/
+*/
 
 function bsc_get_contract_balance($atts) {
     $a = shortcode_atts(array(
