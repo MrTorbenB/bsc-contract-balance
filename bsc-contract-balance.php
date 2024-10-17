@@ -19,7 +19,7 @@ function bsc_get_contract_balance($atts) {
         return "Bitte warten Sie einen Moment und aktualisieren Sie die Seite erneut.";
     }
 
-    $api_key = "K62KV2PRAEJNHBMB3SFZEBV2ADMRIM9Q17"; // Replace this with your BscScan API Key
+    $api_key = "FÜGE_DEINEN_BSCSCAN_APIKEY_HIER"; // Replace this with your BscScan API Key
     $contract_address = $a['address'];
 
     // BscScan API call
